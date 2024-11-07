@@ -15,7 +15,7 @@ const MermaidDiagram = ({ chart }) => {
   );
 };
 MermaidDiagram.propTypes = {
-  chart: PropTypes.func.isRequired, 
+  chart: PropTypes.string.isRequired, 
 };
 export default MermaidDiagram;
 
