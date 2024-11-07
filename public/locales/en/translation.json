@@ -1,0 +1,20 @@
+{
+    "home": {
+        "title": "Main page",
+        "text": "Welcom to the our site!"
+    },
+    "form": {
+        "title": "Contact form",
+        "name": "Name",
+        "email": "email",
+        "button": "Submit"
+    },
+    "about": {
+        "title": "About company",
+        "text": "Information about our company"
+    },
+    "projects": {
+        "title": "Projects",
+        "text": "Our projects"
+      }
+}

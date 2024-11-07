@@ -1,0 +1,14 @@
+.header {
+    background: #213547;
+    padding: 20px;
+    width: 100%;
+    
+}
+.nav ul {
+    display: flex;
+    gap: 10px;
+    
+}
+.link {
+    color: beige;
+}
