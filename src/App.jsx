@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import { useTranslation } from "react-i18next";
+import Diagram from "./components/Diagram/Diagram";
 
 
 const locales = {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/projects" element={<Projects t={t} />} />
           <Route path="/contact" element={<Form t={t} />} />
           <Route path="/about" element={<About t={t} />} />
+          <Route path="/diagram" element={<Diagram />} />
         </Routes>
       </main>
     </>

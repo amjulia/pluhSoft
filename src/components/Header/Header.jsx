@@ -7,9 +7,11 @@ const Header = () => {
       <nav className={styles.nav}>
         <ul>
           <li className={styles.link}><Link to="/">{`Главная`}</Link></li>
+          <li className={styles.link}><Link to="/about">{`О компании`}</Link></li>
           <li className={styles.link}><Link to="/projects">{`Проекты`}</Link></li>
           <li className={styles.link}><Link to="/contact">{`Форма заявки`}</Link></li>
-          <li className={styles.link}><Link to="/about">{`О компании`}</Link></li>
+          <li className={styles.link}><Link to="/diagram">Диаграмма</Link></li>
+          
         </ul>
       </nav>
     </header>
